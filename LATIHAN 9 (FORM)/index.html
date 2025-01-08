@@ -1,0 +1,81 @@
+<!-- FORM HTML -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar FORM</title>
+    <style>
+      .upper {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="upper">
+      <form action="#">
+        <table border="5" cellpadding="10" cellspacing="4">
+          <tr>
+            <td><label for="username">username ?</label></td>
+            <td>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="masukkan username anda"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">email anda ?</label>
+            </td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="masukkan email anda"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="pasword">pasword ?</label></td>
+            <td>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="pasword anda?"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="jeniskelamin">your gender ?</label></td>
+            <td>
+              <input type="radio" value="lakilaki" name="jeniskelamin" />laki
+              laki
+            </td>
+            <td>
+              <input
+                type="radio"
+                value="lakilaki"
+                name="jeniskelamin"
+              />perempuan
+            </td>
+          </tr>
+          <tr>
+            <td><label for="hobi">apa hobi anda?</label></td>
+            <td><input type="checkbox" id="hobi" name="hobi" />coding</td>
+            <td><input type="checkbox" id="hobi" name="hobi" />sepeda</td>
+            <td><input type="checkbox" id="hobi" name="hobi" />gambar</td>
+          </tr>
+          <tr>
+            <td><label for="submit">kirim :]</label></td>
+            <td><input type="submit" id="submit" value="KIRIM" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

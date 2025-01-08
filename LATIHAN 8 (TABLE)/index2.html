@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>belajar table</title>
+    <style>
+      .upper {
+        text-transform: uppercase;
+      }
+      .table #baris1 {
+        background-color: red;
+      }
+      .table #baris4 {
+        background-color: yellow;
+      }
+      .table #kolomkanan {
+        background-color: blue;
+      }
+      .table #kolomkiri {
+        background-color: green;
+      }
+      .table #baris2 {
+        background-color: #6e096e9a;
+      }
+      .table #kotakkosong {
+        background-color: #000000;
+      }
+
+      .table td {
+        background-color: #00ff99;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="upper">
+      <div class="table">
+        <table border="1" cellpadding="10" cellspacing="0">
+          <tr>
+            <td id="kotakkosong"></td>
+            <td>1,2</td>
+            <td colspan="2" id="baris1"></td>
+            <td>1,5</td>
+            <td id="kotakkosong"></td>
+          </tr>
+          <tr>
+            <td>2,1</td>
+            <td rowspan="2" id="kolomkanan"></td>
+            <td id="baris2">2,3</td>
+            <td id="baris2">2,4</td>
+            <td rowspan="2" id="kolomkiri"></td>
+            <td>2,6</td>
+          </tr>
+
+          <tr>
+            <td>3,1</td>
+            <td id="baris2">3,2</td>
+            <td id="baris2">3,3</td>
+            <td>3,4</td>
+          </tr>
+          <tr>
+            <td id="kotakkosong"></td>
+            <td>4,2</td>
+            <td colspan="2" id="baris4"></td>
+            <td>4,4</td>
+            <td id="kotakkosong"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
