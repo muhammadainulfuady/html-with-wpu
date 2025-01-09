@@ -8,13 +8,15 @@
     <style>
       .upper {
         text-transform: uppercase;
+        font-family: sans-serif;
+        text-align: justify;
       }
     </style>
   </head>
   <body>
     <div class="upper">
-      <form action="#">
-        <table border="5" cellpadding="10" cellspacing="4">
+      <form action="index.html">
+        <table border="10" cellpadding="10" cellspacing="0">
           <tr>
             <td><label for="username">username ?</label></td>
             <td>
@@ -40,7 +42,7 @@
             </td>
           </tr>
           <tr>
-            <td><label for="pasword">pasword ?</label></td>
+            <td><label for="password">pasword ?</label></td>
             <td>
               <input
                 type="password"
@@ -53,15 +55,23 @@
           <tr>
             <td><label for="jeniskelamin">your gender ?</label></td>
             <td>
-              <input type="radio" value="lakilaki" name="jeniskelamin" />laki
-              laki
+              <input
+                type="radio"
+                id="jeniskelamin"
+                value="lakilaki"
+                name="jeniskelamin"
+              />laki laki
             </td>
             <td>
               <input
                 type="radio"
                 value="lakilaki"
                 name="jeniskelamin"
+                id="jeniskelamin"
               />perempuan
+            </td>
+            <td>
+              <input type="radio" value="lakilaki" name="jeniskelamin" />gay
             </td>
           </tr>
           <tr>
@@ -71,8 +81,12 @@
             <td><input type="checkbox" id="hobi" name="hobi" />gambar</td>
           </tr>
           <tr>
+            <td><label for="text">apa pesan kamu ?</label></td>
+            <td><textarea name="text" id="text" cols="30"></textarea></td>
+          </tr>
+          <tr>
             <td><label for="submit">kirim :]</label></td>
-            <td><input type="submit" id="submit" value="KIRIM" /></td>
+            <td><button type="submit">SUBMIT</button></td>
           </tr>
         </table>
       </form>
