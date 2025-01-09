@@ -8,6 +8,7 @@
       * {
         font-family: sans-serif;
         background-color: lightblue;
+        margin: auto;
       }
       /* identitas diri */
       .identitas h1 {
@@ -15,6 +16,7 @@
         text-align: center;
       }
       .identitas h3 {
+        padding-top: 3rem;
         margin-left: 150px;
       }
       .identitas table {
@@ -25,10 +27,11 @@
         text-transform: lowercase;
       }
       .identitas img {
-        display: block;
-        margin: auto;
-        width: 100px;
-        height: 100px;
+        position: absolute;
+        margin-left: 45rem;
+        width: 150px;
+        height: 150px;
+        padding-top: 4rem;
       }
       /* riwayat pendidikan */
       .riwayat {
@@ -39,9 +42,28 @@
       }
       .riwayat ul li {
         margin-left: 160px;
+        margin-top: 2rem;
       }
       .riwayat table {
         margin-left: 185px;
+      }
+      .riwayat .tabletop {
+        width: 30rem;
+      }
+      .riwayat .tablebottom {
+        width: 30rem;
+      }
+      /* FOOTER */
+      .footer p {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 20px;
+        position: relative;
+        bottom: 0;
+        margin-top: 2rem;
+        width: 100%;
+        text-transform: capitalize;
       }
     </style>
   </head>
@@ -49,6 +71,7 @@
     <div class="container">
       <div class="identitas">
         <h1>CURRICULUM VITAE</h1>
+        <img src="images/adibg-red.jpg" alt="error" />
         <h3>Identitas Pribadi</h3>
         <table border="0" cellpadding="0" cellspacing="10">
           <tr>
@@ -82,10 +105,10 @@
         <ul>
           <li>pendidikan formal</li>
         </ul>
-        <table border="2" cellpaddingg="9" cellspacing="0">
+        <table border="2" cellpadding="0" cellspacing="0" class="tabletop">
           <tr>
             <th>tingkat pendidikan</th>
-            <th>lulus</th>
+            <th>lulus tahun</th>
           </tr>
           <tr>
             <td>mi miftahul ulum III pereng kulon</td>
@@ -104,6 +127,30 @@
             <td>2028</td>
           </tr>
         </table>
+        <ul>
+          <li>pendidikan non formal</li>
+        </ul>
+        <table border="2" cellpadding="0" cellspacing="0" class="tablebottom">
+          <tr>
+            <th>sertifikat pendidikan non formal</th>
+            <th>diraih tahun</th>
+          </tr>
+          <tr>
+            <td>sertifikat dicoding web deveoloper</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>sertifikat dicoding mesin learning</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>sertifikat dicoding python deveoloper</td>
+            <td>2025</td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer">
+        <p>&copy; 2025 muhammad ainul fuady. All rights reserved.</p>
       </div>
     </div>
   </body>
