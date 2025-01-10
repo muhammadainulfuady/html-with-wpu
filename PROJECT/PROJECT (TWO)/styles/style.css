@@ -1,0 +1,75 @@
+/* index.html */
+* body {
+  background-color: #0d0e0e;
+  font-family: sans-serif;
+}
+/* navbar */
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar {
+  color: white;
+}
+.navbar a:hover {
+  background-color: lightblue;
+  transition: 1.5s;
+  border-radius: 5px;
+  margin: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.navbar .active {
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+/* profile */
+.profile img {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  height: 200px;
+}
+
+.profile h1,
+.profile p {
+  text-align: center;
+  color: lightgreen;
+}
+
+.oferview h1,
+.oferview p {
+  text-align: center;
+  color: lightpink;
+  margin: 1rem 10rem;
+}
+
+.oferview table {
+  margin: auto;
+  max-width: 600px;
+  margin: 3rem auto;
+  color: skyblue;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+/* about.html */
+
+.about h1 {
+  text-align: center;
+  color: white;
+}
+
+.about p {
+  text-align: justify;
+  margin: 20px 20rem;
+  color: white;
+}
