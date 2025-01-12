@@ -1,9 +1,21 @@
-/* index.html */
-* body {
-  background-color: #0d0e0e;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
 }
-/* navbar */
+
+/* background all */
+.home {
+  background-color: black;
+}
+.about {
+  background-color: teal;
+}
+.contact {
+  background-color: steelblue;
+}
+/* navbar all */
 .navbar a {
   color: #ffffff;
   text-decoration: none;
@@ -25,7 +37,7 @@
   border-radius: 5px;
 }
 
-/* profile */
+/* profile all */
 .profile img {
   display: block;
   border-radius: 50%;
@@ -38,7 +50,9 @@
   text-align: center;
   color: lightgreen;
 }
-
+.about .profile p {
+  text-align: center;
+}
 .oferview h1,
 .oferview p {
   text-align: center;
@@ -53,6 +67,7 @@
   color: skyblue;
 }
 
+/* footer all */
 .footer p {
   color: white;
   text-align: center;
@@ -62,7 +77,6 @@
 }
 
 /* about.html */
-
 .about h1 {
   text-align: center;
   color: white;
@@ -72,4 +86,7 @@
   text-align: justify;
   margin: 20px 20rem;
   color: white;
+}
+.contact .contactdy h1 {
+  text-align: center;
 }

@@ -1,0 +1,18 @@
+/* CSS untuk halaman Home */
+.home {
+  background-color: lightblue;
+  /* Full height viewport */
+} /* CSS untuk halaman
+About */
+.about {
+  background-color: lightgreen;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+} /* CSS untuk halaman Contact */
+.contact {
+  background-color: lightcoral;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
