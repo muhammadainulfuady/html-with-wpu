@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* navbar */
+.navbar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: brown;
+  transition: 1s;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.navbar .navbar-active {
+  background-color: brown;
+  border-radius: 20px;
+}
+
+/* heroes */
+.heroes .heroes-deskriptions {
+  text-align: center;
+  color: white;
+}
+
+.heroes img {
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+/* about */
+.about h1 {
+  padding: 5px;
+  margin: 10px auto;
+  text-align: center;
+  color: white;
+}
+
+.about p {
+  text-align: justify;
+  color: white;
+  margin: 10px 200px;
+  line-height: 1.5rem;
+}
+
+/* contact me */
+.contact {
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  padding: 50px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  background-color: #333;
+  padding: 20px 20px;
+  margin: 0;
+}
