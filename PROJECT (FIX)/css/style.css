@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  font-weight: 800;
 }
 
 /* navbar */
@@ -13,14 +14,14 @@
 }
 
 .navbar a:hover {
-  background-color: brown;
   transition: 1s;
   border-radius: 20px;
   margin: 10px;
+  color: brown;
 }
 
 .navbar .navbar-active {
-  background-color: brown;
+  color: brown;
   border-radius: 20px;
 }
 
@@ -49,18 +50,43 @@
 .about p {
   text-align: justify;
   color: white;
-  margin: 10px 200px;
+  margin: 20px 10px;
   line-height: 1.5rem;
+  font-size: 20px;
 }
 
 /* contact me */
-.contact {
+.contact h1 {
+  font-weight: bold;
+  color: white;
+  text-align: justify;
+  padding: 10px 20px;
   color: white;
   font-weight: 800;
-  text-align: center;
-  padding: 50px;
 }
 
+.contact {
+  text-align: center; /* Memusatkan teks secara horizontal */
+  margin-top: 10px; /* Opsional, tambahkan jarak atas */
+  margin-bottom: 3rem;
+}
+
+.contact a {
+  display: inline-block; /* Membuat elemen inline menjadi block agar bisa ditata */
+  padding: 10px 20px; /* Memberikan jarak dalam */
+  background-color: #ff9800; /* Warna background tombol */
+  color: white; /* Warna teks */
+  text-decoration: none; /* Menghapus garis bawah */
+  font-size: 18px; /* Ukuran font */
+  border-radius: 5px; /* Membuat sudut melengkung */
+}
+
+.contact a:hover {
+  transition: 1s;
+  background-color: tomato;
+}
+
+/* footer */
 .footer p {
   color: white;
   text-align: center;
